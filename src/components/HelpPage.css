@@ -1,0 +1,53 @@
+.listtotal{
+    padding:0;
+    padding-left: 25px;
+    list-style: none;
+}
+.listtotal li{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-bottom: 1px solid rgb(110, 110, 110);
+}
+.listtotal li button{
+    text-align: left;
+}
+.usepadding{
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-left:15px;
+}
+.bottomborder{
+    border-bottom:1px solid rgb(110, 110, 110);
+}
+.left{
+    text-align: left
+}
+.nomargin{
+    margin: 0px;
+}
+.widthsuto{
+    width:100%;
+}
+button{
+    /* padding-inline: 50px; */
+    padding-top:25px;
+    padding-bottom: 25px;
+    width:100%;
+    height:100%;
+    background-color: white;
+    border:none;
+}
+.displayblock{
+    display: block
+}
+.textblock{
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.novisible{
+    visibility: hidden;
+}
+.useflex{
+    display: flex;
+}

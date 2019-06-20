@@ -1,0 +1,74 @@
+.search {
+  border-bottom: 1px solid #ddd;
+}
+.title {
+  font-size: 25px;
+  padding: 30px 0 18px 0;
+  font-weight: 1000;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.one{
+  display: flex;
+  height: 124px;
+  
+}
+.oneA,.oneB,.oneC{
+  flex:1;
+  border: 1px solid #eee;
+}
+.oneA{
+  background: url('http://10.84.130.41:5000/avatars/xiyi.jpg') repeat;
+  background-size:cover;
+}
+
+.oneB{
+  background: url('http://10.84.130.41:5000/avatars/xixie.jpg') repeat;
+  background-size:cover;
+}
+
+.oneC{
+  background: url('http://10.84.130.41:5000/avatars/zhouqibaojie.jpg') repeat;
+  background-size:cover;
+}
+
+.two{
+  display: flex;
+  height: 124px;
+}
+.twoA,.twoB{
+  /* flex:1; */
+  border: 1px solid #eee;
+}
+.twoA{
+  flex:1;
+  background: url('http://10.84.130.41:5000/avatars/jiadianweixiu.jpg') repeat;
+  background-size:cover;
+
+}
+.twoB{
+  flex:2;
+  background: url('http://10.84.130.41:5000/avatars/jiadianqingxi.jpg') repeat;
+  background-size:cover;
+
+}
+.three{
+  display: flex;
+  height: 124px;
+}
+.threeA,.threeB{
+  border: 1px solid #eee;
+}
+.threeA{
+  flex:2;
+  background: url('http://10.84.130.41:5000/avatars/jiafangqingxi.jpg') repeat;
+  background-size:cover;
+}
+.threeB{
+  flex:1;
+  background: url('http://10.84.130.41:5000/avatars/xiyouyanji.jpg') repeat;
+  background-size:cover;
+
+}
